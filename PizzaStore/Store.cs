@@ -38,30 +38,6 @@ namespace PizzaStore
         
         }
 
-        #region Instance field
-
-        
-
-
-
-
-        #endregion
-
-        #region Properties
-
-
-
-
-
-        #endregion
-
-        #region Conctructors
-
-
-
-
-
-        #endregion
 
 
 

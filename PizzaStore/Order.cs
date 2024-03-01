@@ -66,6 +66,10 @@ namespace PizzaStore
         
         }
 
+        #endregion
+
+        #region Methods
+
         public double CalculateTotalPrice()
         {
             return Pizza.Price + (Pizza.Price * Tax) + DeliveryFee;

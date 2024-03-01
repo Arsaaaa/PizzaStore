@@ -31,8 +31,11 @@ namespace PizzaStore
 
         public string Name
 
-        { get { return _name; }
+        { 
+            get { return _name; }
             private set { _name = value; }
+
+            #endregion
 
         }
 
@@ -43,7 +46,6 @@ namespace PizzaStore
             private set { _price = value; }
 
         }
-        #endregion
 
         public override string ToString()
         {
