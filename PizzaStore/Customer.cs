@@ -32,12 +32,14 @@ namespace PizzaStore
             Name = name;
         }
         #endregion
+
+        #region Methods  
         public override string ToString()
         {
             return $"Customer: {Name}";
 
 
-        } 
-    
+        }
+        #endregion
     }
 }

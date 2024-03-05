@@ -47,10 +47,14 @@ namespace PizzaStore
 
         }
 
+        #region Methods
+
         public override string ToString()
         {
             return $"Pizza: {Name}, Price: {Price}";
 
         }
+
+        #endregion
     }
 }
